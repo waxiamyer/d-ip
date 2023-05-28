@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Container's IP</title>
+    <style>
+        body {
+            background-color: {{ bg_color }};
+        }
+    </style>
+</head>
+<body>
+    {% if ip_address %}
+    <div style="text-align: center;">
+        <h1>This container's IP: {{ ip_address }}!</h1>
+    </div>
+    {% else %}
+    <div style="text-align: center;">
+        <h1>No IP configured in this Container!</h1>
+    </div>
+    {% endif %}
+</body>
+</html>
+
