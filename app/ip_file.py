@@ -1,6 +1,6 @@
 '''
-This Script was created by Waxia Myer, May 2006
-@Author Waxia Myer
+This Script was created by Wasia Maya, May 2006
+@Author Wasia Maya
 '''
 
 from flask import Flask, render_template
