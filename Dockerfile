@@ -23,7 +23,7 @@ RUN pip3 install --no-cache-dir -r /tmp/requirements.txt
 COPY ./app /app
 COPY ./app/templates /app/templates
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 0
 
 # Set the entrypoint command
-CMD [ "python3", "ip_file.py" ]
+CMD [ "python3", "ip_file.py", "--host=0.0.0.0" ]
