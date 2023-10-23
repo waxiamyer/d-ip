@@ -26,4 +26,4 @@ WORKDIR /app
 EXPOSE 0
 
 # Set the entrypoint command
-CMD [ "python3", "ip_file.py", "--host=0.0.0.0" ]
+CMD [ "python3", "ip_file.py"]
